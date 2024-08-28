@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quick Tech Solutions</title>
+	<!-- Favicon Icon -->
+	<link rel="icon"  type="image/png" href="assets/images/favicon2.png" sizes="32x32"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+    <link rel="stylesheet" href="assets/css/header.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
+    <link rel="stylesheet" href="assets/css/response.css">
+    <link rel="stylesheet" href="assets/css/chip.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/plugin_theme_css.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css"/>
+   
+</head>
+  <body style="background-color: black;">
+    <!--                                                T O P       H E A D E R                                                         -->
+    <div class="container-1">
+		<div class="row logo-left">				
+			<!-- LOGO -->
+			<div class="col-md-3 col-sm-3 col-xs-4">
+				<div class="logo">
+			<a class="main_sticky_main_l" href="index.html">
+				<img class="icon" src="assets/images/logo2.png">
+			</a>
+				</div>
+			</div>
+			<div class="col-md-9 col-sm-9 col-xs-8">		
+			<ul class="menu-1">
+			<li class="menu-3"><a href="index.html" class="menu-2">Home</a></li>
+			<li class="menu-3"><a href="about.html" class="menu-2">About</a></li>
+			<div class="dropdown">
+                <button class="dropbtn">Service</button>
+                <div class="dropdown-content">
+                    <a href="data.html">Data Recovery</a>
+                    <a href="chip.html">Chip-level Service</a>
+                    <a href="onsite.html">On-site & Remote services</a>
+                    <a href="webpage.html">Webpage & Webapp Creation</a>
+                    <a href="cctv.html">Closed Circuit Television (CCTV)</a>
+                    <a href="battery.html">Battery Replacement</a>
+                    <a href="network.html">Network Solutions</a>
+                    <a href="mobile.html">Mobile Service</a>
+                    <a href="software.html">Software Solutions</a>
+                    <a href="display.html">Display Replacement</a>
+                    <a href="computer.html">Computer Accessories</a>
+                    <a href="printer.html">Printers</a>
+                </div>
+              </div>
+        <li class="menu-3"><a href="contact.html" class="menu-2">Contact</a></li>
+        <li class="menu-3" id="em-1"><a class="con-1" href = "mailto: a.mdaslam39@gmail.com">Email Us</a></li>
+		</ul>
+				</div>
+			</div>
+		</div>
+  </div>
+  <!--                                                C L O S E       H E A D E R                                                         -->
+
+    <!--                                           M O B I L E            H E A D E R                                                      -->          
+
+  <!-- MOBILE MENU Logo AREA -->
+  <div class="mobile-logo">
+  <a class="main_sticky_main_l-1" href="index.html">
+    <img class="icon-1" src="assets/images/logo2.png">
+</a>
+<!-- MOBILE MENU AREA -->
+    <div id="webapp_cover">
+        <div id="menu_button">
+          <input type="checkbox" id="menu_checkbox">
+          <label for="menu_checkbox" id="menu_label" onclick="myFunction()">
+            <div id="menu_text_bar"></div>
+          </label>
+        </div>
+    </div>
+</div>
+<div id="myLinks">
+    <li><a href="about.html">About</a></li>
+    <a class="dropdown-btn">Service 
+    </a>
+      <div class="dropdown-container">
+        <li><a href="data.html">Data Recovery</a></li>
+          <li><a href="chip.html">Chip-level Service</a></li>
+          <li><a href="onsite.html">On-site & Remote services</a></li>
+          <li><a href="webpage.html">Webpage & Webapp Creation</a></li>
+          <li><a href="cctv.html">Closed Circuit Television (CCTV)</a></li>
+          <li><a href="battery.html">Battery Replacement</a></li>
+          <li><a href="network.html">Network Solutions</a></li>
+          <li><a href="mobile.html">Mobile Service</a></li>
+          <li><a href="software.html">Software Solutions</a></li>
+          <li><a href="display.html">Display Replacement</a></li>
+          <li><a href="computer.html">Computer Accessories</a></li>
+          <li><a href="printer.html">Printers</a></li>
+        </div>
+    <li><a href="contact.html">Contact</a></li>
+
+  </div>
+
+  <script>
+    /* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+    
+    for (i = 0; i < dropdown.length; i++) {
+      dropdown[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var dropdownContent = this.nextElementSibling;
+        if (dropdownContent.style.display === "block") {
+          dropdownContent.style.display = "none";
+        } else {
+          dropdownContent.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+
+        <script>
+            function myFunction(x) {
+                var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+    }
+            </script>
+    
+
+<!-- END MOBILE MENU AREA  -->
+<!--                                                C L O S E       H E A D E R                                                         -->
+
+
+
+    <div class="slideshow-container">
+
+
+        <div class="mySlides">
+            <img class="first" src="assets/images/chip-1.jpg">
+        </div>
+        <div class="mySlides">
+            <img class="first" src="assets/images/chip-2.jpg">
+        </div>
+        <div class="mySlides">
+            <img class="first" src="assets/images/chip-3.jpg">
+        </div>
+
+
+    <div class="dots">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+    
+        <script>
+            let slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              let i;
+              let slides = document.getElementsByClassName("mySlides");
+              let dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+    <div class="chip-box">
+            
+        <div class="chip-p">
+            <h1>Remote Service</h1>
+           <p>     Our remote service allows users to access their computer remotely from any device with internet access.
+            This means you can access files, run programs, and troubleshoot issues on your computer from anywhere.
+            Our service is secure, using industry standard encryption to protect your data.
+            It is also user-friendly, with a simple and intuitive interface that makes it easy to set up and use.
+            The service also provides remote support, where our technicians can remotely access your computer to diagnose and fix any problems you may be experiencing.
+            This can save you time and money, as you won't need to wait for a technician to come to your location.
+            Our service is compatible with Windows, Mac and Linux operating systems.
+            It also supports remote access to multiple computers, so you can manage all of your devices from one account.
+            Our service also includes a file transfer feature, which allows you to easily transfer files between your remote and local computers.
+            We also have a mobile app, so you can access your computer on the go. At Quick Tech Solutions, we understand that computer issues can arise at any time, which is why we offer remote service to our clients. Our remote service allows us to troubleshoot and resolve your computer issues quickly and efficiently without the need for an on-site visit.
+
+            Our remote service includes:
+            
+                Remote access to your computer, allowing us to diagnose and fix problems as if we were on-site
+                Remote software installation and updates, saving you time and minimizing disruptions to your workflow
+                Remote troubleshooting and support for software and hardware issues, including operating system and application errors
+                Remote virus and malware removal, keeping your computer secure and running smoothly
+                Remote training and consultation, providing you with the knowledge and skills to optimize your computer's performance and protect your data
+            
+            With our remote service, you can rest assured that your computer issues will be resolved quickly and efficiently, minimizing downtime and maximizing productivity. Contact Quick Tech Solutions today to learn more about our remote computer service options.</p>
+<br>
+<h1>On-site Service</h1>
+<p>     At Quick Tech Solutions, we understand the importance of reliable and efficient on-site computer hardware and software for your business. That's why we offer a wide range of hardware and software solutions to meet the unique needs of your company.
+
+    Our on-site computer hardware includes servers, workstations, and peripherals such as printers and scanners. All of our hardware is sourced from top manufacturers and is rigorously tested to ensure it meets the highest standards of quality and performance. We also offer ongoing maintenance and support to keep your hardware running smoothly.
+    
+    In addition to hardware, we also provide a variety of software solutions for your business. Our team of experts can help you select the right operating system, applications, and security software to meet your specific needs. We also offer software installation, configuration, and training to ensure your team is able to use the software effectively.
+    
+    At Quick Tech Solutions, we pride ourselves on providing fast, friendly, and professional service. Our team of experienced technicians are available to assist you with any hardware or software issues you may encounter, and we offer a variety of support options to suit your needs.
+    
+    If you're looking for a partner to help you manage your on-site computer hardware and software, look no further than Quick Tech Solutions. Contact us today to learn more about how we can help your business thrive. </p>
+
+
+
+
+   </div>
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--                                            F O O T E R                                                                                        -->
+
+<!--Footer --->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+<footer id="dk-footer" class="dk-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-4">
+                    <div class="dk-footer-box-info">
+                        <a href="index.html" class="footer-logo">
+                            <img src="assets/images/favicon2.png" height="80px" width="110px" alt="footer_logo" class="img-fluid">
+                        </a>
+                        <p class="footer-info-text" style="color:
+						whitesmoke">
+							Don’t Panic. Your computer is about to be fixed – by the company that makes computers! If only one of the keys on your keyboard worked, you’d still be typing with it.
+                        </p>
+                        <div class="footer-social-link">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-twitter"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-google-plus"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Social link -->
+                    </div>
+                    <!-- End Footer info -->
+                    <div class="footer-awarad">
+                        <p class="slogan">We fix what others can’t. We create solutions for your unique technology needs.</p>
+                    </div>
+                </div>
+                <!-- End Col -->
+                <div class="col-md-12 col-lg-8">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="contact-us">
+                                <div class="contact-icon">
+                                    <i class="fa fa-map-o" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                   <a href="https://goo.gl/maps/EssfTTA3g5dCSgTR9" class="con-2"><h3 class="con-2">Trichy-1.</h3>
+                                    <p>Beemanagar</p></a> 
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                        <div class="col-md-6">
+                            <div class="contact-us contact-us-last">
+                                <div class="contact-icon">
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i>
+                                </div>
+                                <!-- End contact Icon -->
+                                <div class="contact-info">
+                                    <a class="con-2" href="tel:+91 7904892215">+91 7904892215</a>
+                                    <p>Click this number and call now!</p>
+                                </div>
+                                <!-- End Contact Info -->
+                            </div>
+                            <!-- End Contact Us -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Contact Row -->
+                    <div class="row">
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget footer-left-widget">
+                                <div class="section-heading">
+                                    <h3>Useful Links</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <ul>
+                                    <li>
+                                        <a class="text-dec1" href="#">About us</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dec1" href="#">Services</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dec1" href="#">Projects</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dec1" href="#">Our Team</a>
+                                    </li>
+                                </ul>
+                                <ul class="text-dec2">
+                                    <li>
+                                        <a class="text-dec1" href="#">Contact us</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dec1" href="#">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dec1" href="#">Testimonials</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-dec1" href="#">Faq</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- End Footer Widget -->
+                        </div>
+                        <!-- End col -->
+                        <div class="col-md-12 col-lg-6">
+                            <div class="footer-widget">
+                                <div class="section-heading">
+                                    <h3>Subscribe</h3>
+                                    <span class="animate-border border-black"></span>
+                                </div>
+                                <p class="slogan-1"><!-- Don’t miss to subscribe to our new feeds, kindly fill the form below. -->
+									Sounds like a plan! Guiding customers through troubleshooting their computer problem.</p>
+                                <form action="user.php" method="post">
+                                    <div class="form-row">
+                                        <div class="col dk-footer-form">
+                                            <input type="email" class="form-control" placeholder="Email Address" name="textdata">
+                                            <button type="submit">
+                                                <i class="fa fa-send"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                                <!-- End form -->
+                            </div>
+                            <!-- End footer widget -->
+                        </div>
+                        <!-- End Col -->
+                    </div>
+                    <!-- End Row -->
+                </div>
+                <!-- End Col -->
+            </div>
+            <!-- End Widget Row -->
+        </div>
+        <!-- End Contact Container -->
+
+
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span>Copyright © 2022, All Right Reserved.</span>
+                    </div>
+                    <!-- End Col -->
+                    <div class="col-md-6">
+                        <div class="copyright-menu">
+                            <ul>
+                                <li>
+                                    <a class="text-dec1" href="#">Home</a>
+                                </li>
+                                <li>
+                                    <a class="text-dec1" href="#">Terms</a>
+                                </li>
+                                <li>
+                                    <a class="text-dec1" href="#">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a class="text-dec1" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- End col -->
+                </div>
+                <!-- End Row -->
+            </div>
+            <!-- End Copyright Container -->
+        </div>
+        <!-- End Copyright -->
+        <!-- Back to top -->
+        <div id="back-to-top" class="back-to-top">
+            <button class="btn btn-dark" title="Back to Top" onclick="topFunction()" id="myBtn" style="display: block;">
+                <i class="fa fa-angle-up"></i>
+            </button>
+        </div>
+        <script>
+            //Get the button
+            var mybutton = document.getElementById("myBtn");
+            
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {scrollFunction()};
+            
+            function scrollFunction() {
+              if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+              } else {
+                mybutton.style.display = "none";
+              }
+            }
+            
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+              document.body.scrollTop = 0;
+              document.documentElement.scrollTop = 0;
+            }
+            </script>
+        <!-- End Back to top -->
+<!--                                                    F O O T E R                                                                                        -->
+ </body>
+</html>	
